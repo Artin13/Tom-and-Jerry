@@ -7,4 +7,15 @@ class tom{
     y = y_;
     d = d_;
   }
+  
+  void display(){
+    ellipse(x, y, d, d);
+    
+    pushStyle();
+    textAlign(CENTER);
+    textSize(30);
+    fill(0, 0, 0);
+    text("J", x, y + 8);
+    popStyle();
+  }
 }
