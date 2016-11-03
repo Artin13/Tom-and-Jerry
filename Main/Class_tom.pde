@@ -20,19 +20,18 @@ class tom {
   }
 
   void movement() {
-    if (keyPressed) {
-      if (key == 'j') {
-        x -= speed;
-      }
-      if (key == 'k') {
-        y += speed;
-      }
-      if (key == 'l') {
-        x += speed;
-      }
-      if (key == 'i') {
-        y -= speed;
-      }
+
+    if (jPress) {
+      x -= speed;
+    }
+    if (kPress) {
+      y += speed;
+    }
+    if (lPress) {
+      x += speed;
+    }
+    if (iPress) {
+      y -= speed;
     }
   }
 }
