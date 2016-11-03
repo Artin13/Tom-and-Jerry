@@ -21,19 +21,19 @@ class jerry {
   }
 
   void movement() {
-    if (keyPressed) {
-      if (key == 'a') {
+    
+      if (aPress) {
         x -= speed;
       }
-      if (key == 's') {
+      if (sPress) {
         y += speed;
       }
-      if (key == 'd') {
+      if (dPress) {
         x += speed;
       }
-      if (key == 'w') {
+      if (wPress) {
         y -= speed;
       }
-    }
+    
   }
 }
