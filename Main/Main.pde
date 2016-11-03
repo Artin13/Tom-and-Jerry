@@ -1,8 +1,8 @@
-jerry j = new jerry(100, 300, 50);
-tom t = new tom(500, 300, 50);
+jerry j = new jerry(250, 300, 50);
+tom t = new tom(1000, 300, 50);
 
 void setup(){
-  size(600, 600);
+  fullScreen();
   color(HSB);
 }
 
