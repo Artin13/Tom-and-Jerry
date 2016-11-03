@@ -1,6 +1,6 @@
 class tom {
 
-  float x, y, d;
+  float x, y, d, speed = 5;
 
   tom(float x_, float y_, float d_) {
     x = x_;
@@ -21,17 +21,17 @@ class tom {
 
   void movement() {
     if (keyPressed) {
-      if (key == 'a') {
-        x -= 1;
+      if (key == 'j') {
+        x -= speed;
       }
-      if (key == 's') {
-        y += 1;
+      if (key == 'k') {
+        y += speed;
       }
-      if (key == 'd') {
-        x += 1;
+      if (key == 'l') {
+        x += speed;
       }
-      if (key == 'w') {
-        y -= 1;
+      if (key == 'i') {
+        y -= speed;
       }
     }
   }
