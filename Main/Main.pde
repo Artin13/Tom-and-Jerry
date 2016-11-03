@@ -13,5 +13,4 @@ void draw() {
   j.display();
   j.movement();
   t.display();
-  t.movement();
 }
