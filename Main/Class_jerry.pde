@@ -20,4 +20,10 @@ class jerry{
     popStyle();
       
   }
+  
+  void movement(){
+    if (keyPressed){
+      
+    }
+  }
 }
