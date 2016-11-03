@@ -11,4 +11,6 @@ void draw(){
   
   //Update classes
   j.display();
+  j.movement();
+  t.display();
 }

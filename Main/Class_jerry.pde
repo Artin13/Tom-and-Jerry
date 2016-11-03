@@ -23,7 +23,15 @@ class jerry{
   
   void movement(){
     if (keyPressed){
-      
+      if (key == 'a'){
+        x -= 1;
+      }if (key == 's'){
+        y += 1;
+      }if (key == 'd'){
+        x += 1;
+      }if (key == 'w'){
+        y -= 1;
+      }
     }
   }
 }
